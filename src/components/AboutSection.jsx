@@ -12,21 +12,20 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Web Developer & Tech Creator
+                            Computer Science Engineering Student
                         </h3>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, I specialize
-                            in creating responsive, accessible, and performant web
-                            applications using modern technologies.
+                            Programming has always amazed me with how much you can create and
+                            solve. I'm a naturally curious learner who enjoys picking up new
+                            skills and experimenting with the latest tech.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I'm passionate about creating elegant solutions to complex
-                            problems, and I'm constantly learning new technologies and
-                            techniques to stay at the forefront of the ever-evolving web
-                            landscape.
-                        </p>
+                            I’m passionate about AI and machine learning, with a strong foundation
+                            in web development. I’ve also explored data
+                            science, NLP, and computer vision—continually expanding my skills across
+                            both web and AI technologies.</p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -35,10 +34,10 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href=""
+                                href="../public/resume/RithulSandeepResume.pdf" target="__blank"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
-                                Download CV
+                                View CV
                             </a>
                         </div>
                     </div>
@@ -63,10 +62,10 @@ export const AboutSection = () => {
                                     <User className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <h4 className="font-semibold text-lg">AI/ML</h4>
                                     <p className="text-muted-foreground">
-                                        Designing intuitive user interfaces and seamless user
-                                        experiences.
+                                        Building intelligent systems and models using
+                                        modern machine learning frameworks and techniques.
                                     </p>
                                 </div>
                             </div>
@@ -77,10 +76,10 @@ export const AboutSection = () => {
                                     <Briefcase className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <h4 className="font-semibold text-lg">Automation</h4>
                                     <p className="text-muted-foreground">
-                                        Leading projects from conception to completion with agile
-                                        methodologies.
+                                        Scraping websites and building tools that automate just
+                                        about anything.
                                     </p>
                                 </div>
                             </div>

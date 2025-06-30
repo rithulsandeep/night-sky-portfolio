@@ -3,32 +3,29 @@ import { ArrowRight, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind.",
+        title: "Forgery Detection",
+        description: "A model for differentiating between real and fake signs",
         image: "/projects/project1.png",
-        tags: ["React", "TailwindCSS", "Supabase"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["cv2", "sklearn", "numpy"],
+        githubUrl: "https://github.com/rithulsandeep/Signature-Forgery-Detection",
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
+        title: "Helmet Detection",
         description:
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
+            "A real-time helmet detection tool built using YOLOv8 to identify whether individuals are wearing helmets in video streams or images.",
         image: "/projects/project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["yolov8", "machine-learning"],
+        githubUrl: "https://github.com/rithulsandeep/helmet-detection-yolov11",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Portfolio Website",
         description:
-            "Full-featured e-commerce platform with user authentication and payment processing.",
+            "Resonsive website using React to display my portfolio",
         image: "/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["React", "TailwindCSS",],
+        githubUrl: "https://github.com/rithulsandeep/night-sky-portfolio",
     },
 ];
 
@@ -43,8 +40,8 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects. Each project was carefully
-                    crafted with attention to detail, performance, and user experience.
+                    Here are some of my recent projects. I love exploring concepts that I
+                    haven't worked with before.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
