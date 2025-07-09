@@ -27,6 +27,14 @@ const projects = [
         tags: ["React", "TailwindCSS",],
         githubUrl: "https://github.com/rithulsandeep/night-sky-portfolio",
     },
+    {
+        id: 4,
+        title: "Online Auction Website",
+        description: "A platform for online bidding and auctions built with MERN stack.",
+        image: "/projects/project4.png",
+        tags: ["React", "Node.js", "MongoDB", "Express"],
+        githubUrl: "https://github.com/rithulsandeep/auction-frontend",
+    }
 ];
 
 
