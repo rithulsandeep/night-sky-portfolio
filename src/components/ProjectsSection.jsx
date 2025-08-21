@@ -3,37 +3,37 @@ import { ArrowRight, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Forgery Detection",
-        description: "A model for differentiating between real and fake signs",
+        title: "Traffic Violations Detection",
+        description:
+            "A real-time traffic violations detection tool built using YOLOv8 to identify traffic rule violations in video streams or images.",
         image: "/projects/project1.png",
-        tags: ["cv2", "sklearn", "numpy"],
-        githubUrl: "https://github.com/rithulsandeep/Signature-Forgery-Detection",
+        tags: ["yolov8", "machine-learning"],
+        githubUrl: "https://github.com/rithulsandeep/traffic-violations-detection",
     },
     {
         id: 2,
-        title: "Helmet Detection",
-        description:
-            "A real-time helmet detection tool built using YOLOv8 to identify whether individuals are wearing helmets in video streams or images.",
-        image: "/projects/project2.png",
-        tags: ["yolov8", "machine-learning"],
-        githubUrl: "https://github.com/rithulsandeep/helmet-detection-yolov11",
+        title: "Whatsapp Chat Summarizer",
+        description: "A tool to summarize WhatsApp chats using NLP techniques.",
+        image: "/projects/project3.png",
+        tags: ["NLP", "Python", "ChatGPT"],
+        githubUrl: "https://github.com/rithulsandeep/whatscene"
+
     },
     {
         id: 3,
-        title: "Portfolio Website",
-        description:
-            "Resonsive website using React to display my portfolio",
-        image: "/projects/project3.png",
-        tags: ["React", "TailwindCSS",],
-        githubUrl: "https://github.com/rithulsandeep/night-sky-portfolio",
-    },
-    {
-        id: 4,
         title: "Online Auction Website",
         description: "A platform for online bidding and auctions built with MERN stack.",
         image: "/projects/project4.png",
         tags: ["React", "Node.js", "MongoDB", "Express"],
         githubUrl: "https://github.com/rithulsandeep/auction-frontend",
+    },
+    {
+        id: 4,
+        title: "FFCS Sorter",
+        description: "A tool to sort and manage course registrations for the FFCS system.",
+        image: "/projects/project2.png",
+        tags: ["React", "Tailwind CSS"],
+        githubUrl: "https://github.com/rithulsandeep/ffcs_sort_scene"
     }
 ];
 
