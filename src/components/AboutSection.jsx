@@ -34,7 +34,7 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href="../public/resume/RithulSandeepResume.pdf" target="__blank"
+                                href="../public/resume/MyResume.pdf" target="__blank"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 View CV
